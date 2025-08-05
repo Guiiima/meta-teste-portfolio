@@ -1,21 +1,31 @@
-📚 Meta - Prova de Módulo: HTML e CSS
-Este repositório contém o projeto final desenvolvido como prova para aprovação no módulo de HTML e CSS do curso da Meta (Coursera).
+# Meta - Module Exam Project: HTML and CSS
 
-🧁 Tema: Site de opiniões sobre receitas culinárias.
-O objetivo do site é permitir que usuários compartilhem e descubram opiniões sobre diferentes receitas, com uma interface simples, responsiva e construída apenas com HTML5 e CSS3.
+This repository contains the final project developed as the module exam for the **HTML and CSS** course by **Meta (Coursera)**.
 
-🔧 Tecnologias utilizadas:
-HTML5
+## Project Theme
 
-CSS3 (com responsividade e estilos sem frameworks)
+**Recipe Review Website**  
+The website allows users to share and discover opinions on various recipes. It features a clean and responsive interface built using only HTML5 and CSS3.
 
-🎯 Objetivos demonstrados no projeto:
-Estruturação semântica com HTML
+## Technologies Used
 
-Uso correto de tags como section, article, header, footer, etc.
+- HTML5  
+- CSS3 (responsive layout and custom styling, no frameworks)
 
-Estilização com CSS (cores, fontes, espaçamento, layout)
+## Learning Objectives Demonstrated
 
-Criação de layout responsivo
+- Semantic HTML structure
+- Proper use of elements such as `section`, `article`, `header`, `footer`, and others
+- Visual styling using CSS (colors, fonts, spacing, layout)
+- Responsive design techniques
+- Basic accessibility practices
 
-Acessibilidade básica
+## Preview
+
+You can open the `index.html` file in your browser to view the project locally.
+
+---
+
+✅ Developed as part of the **Meta Front-End Developer** Specialization  
+📚 Course: *HTML and CSS in depth (Meta - Coursera)*
+
