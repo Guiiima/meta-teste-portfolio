@@ -6,17 +6,12 @@
 }
 
 body {
-    /* background-color: #18453b; */
-    background-color: #d6dfdb;
+    background-color: #cbd0ce;
 }
 
-ul {
-    display: flex;
-}
-
-ul {
-    list-style: none;
-    gap: 20px;
+.logo-img {
+    width: 200px;
+    height: 200px;
 }
 
 nav ul {
@@ -54,20 +49,12 @@ li a:hover::after {
 }
 
 nav {
-    margin-top: 40px;
+    margin: 40px auto 0; 
     border-radius: 8px;
-    background-color: #451822e1;
+    background-color: #451822c7;
     padding: 15px;
     display: flex;
-    width: 85%;
     justify-content: center;
-}
-
-.nav {
-    display: flex;
-    justify-content: center;
-
-    width: 100%;
 }
 
 header {
@@ -76,6 +63,7 @@ header {
     display: flex;
     color: #18453b;
     flex-direction: column;
+    align-items: center;
 }
 
 .logo {
