@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página inicial do restaurante Little Lemon, com nosso menu, promoções e informações para reserva.">
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
     <title>Little Lemon | Home</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="lemon.png" alt="Little Lemon Logo" class="logo-img">
-            <h1>LITTLE LEMON</h1>
-        </div>
+    <div class="logo-container">
+        <img src="/assets/lemon.png" alt="Little Lemon Logo" class="logo-img">
+        <h1>LITTLE LEMON</h1>
+    </div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -23,12 +29,49 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <article>
-            <h2>30% off this weekend</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti facere iusto cum, numquam saepe unde esse consequatur itaque quo aspernatur nulla velit incidunt fuga minima fugit voluptas nobis minus perspiciatis.</p>
-        </article>
-    </main>
-</body>
 
+    <main>
+        <section class="promotion">
+            <h2>30% Off This Weekend</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et congue massa, eu fringilla mauris. Fusce dapibus vehicula ex at ultrices. Duis at varius ligula.</p>
+        </section>
+
+        <section class="main-content">
+            <article class="card">
+                <h3>Our New Menu</h3>
+                <img src="/assets/batata.jpg" alt="Bataat Frita">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et congue massa, eu fringilla mauris. Fusce dapibus vehicula ex at ultrices.</p>
+                <a href="#">See our new menu</a>
+            </article>
+
+            <article class="card">
+                <h3>Book a table</h3>
+                <img src="/assets/pizza.jpg" alt="Pizza">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et congue massa, eu fringilla mauris. Fusce dapibus vehicula ex at ultrices.</p>
+                <a href="#">Book your table now</a>
+            </article>
+
+            <article class="card">
+                <h3>Opening Hours</h3>
+                <img src="/assets/uva.jpg" alt="Uva">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et congue massa, eu fringilla mauris.</p>
+                <ul class="opening-hours">
+                    <li>Mon - Fri: 2pm - 10pm</li>
+                    <li>Sat: 2pm - 11pm</li>
+                    <li>Sun: 2pm - 9pm</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="/assets/lemon.png" alt="Ícone do logo Little Lemon" class="footer-logo">
+        </div>
+        <div>
+            <p>Copyright Little Lemon</p>
+        </div>
+    </footer>
+
+</body>
 </html>
