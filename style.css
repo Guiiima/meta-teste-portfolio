@@ -88,7 +88,7 @@ nav a:hover::after {
 }
 
 .promotion {
-    background-image: url('/assets/food.jpg');
+    background-image: url('food.jpg');
     background-size: cover;
     background-position: center;
     color: white;
